@@ -22,7 +22,6 @@ figure_2/                     Gravity-model comparison
 figure_3/                     Intervening-opportunity model analyses
 figure_4/                     Mechanism analyses and random forest models
 
-docs/                         Additional documentation
 ```
 
 ---
@@ -118,11 +117,9 @@ SafeGraph-derived data remain subject to the original provider's licensing and r
 
 If you use this repository, please cite:
 
-Zhang X., et al.
+Zhang c., et al.
 
 *Directional asymmetry in urban mobility reveals semi-permeable racialized segregation.*
-
-PNAS, 2026.
 
 ---
 
