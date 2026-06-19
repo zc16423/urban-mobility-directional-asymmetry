@@ -2,17 +2,17 @@
 
 ## Overview
 
-This repository contains the code, documentation, figure-generation scripts, and selected derived data associated with the study:
+This repository contains the code, documentation, figure-generation scripts, and selected derived data associated with this study.
 
-**Directional asymmetry in urban mobility reveals semi-permeable racialized segregation**
-
-Using mobility data from 16 major US metropolitan areas, this study quantifies directional asymmetry in travel between high-poverty minority (HPM) and low-poverty white (LPW) Census Block Groups (CBGs). The analysis evaluates multiple mobility baselines, including gravity models, cumulative intervening-opportunity models, and path/choice intervening-opportunity models, and examines the social and built-environment factors associated with asymmetric mobility patterns.
+Using mobility data from 16 major US metropolitan areas, the study quantifies directional asymmetry in travel between high-poverty minority (HPM) and low-poverty white (LPW) Census Block Groups (CBGs). The analysis evaluates multiple mobility baselines, including gravity models, cumulative intervening-opportunity models, and path/choice intervening-opportunity models, and examines the social and built-environment factors associated with asymmetric mobility patterns.
 
 ---
 
 ## Repository Structure
 
 ```text
+README.md
+
 basic_data/                   Core model outputs and derived matrices
 city_distance_matrices/       City-level CBG distance matrices
 city_population_poi/          Population and POI attributes
@@ -21,7 +21,6 @@ figure_1/                     Asymmetry metrics and descriptive analyses
 figure_2/                     Gravity-model comparison
 figure_3/                     Intervening-opportunity model analyses
 figure_4/                     Mechanism analyses and random forest models
-
 ```
 
 ---
@@ -51,8 +50,8 @@ Each figure directory contains scripts and processed data required to reproduce 
 The study integrates data from multiple sources:
 
 * SafeGraph origin-destination mobility records
-* American Community Survey (ACS) 2015–2019 demographic attributes
-* EPA Smart Location Database built-environment indicators
+* American Community Survey (ACS) 2015–2019 5-year estimates
+* EPA Smart Location Database (SLD)
 
 Derived datasets include:
 
@@ -84,10 +83,9 @@ Additional geospatial libraries may be required for selected figure scripts.
 
 ## Reproducibility Workflow
 
-1. Obtain the required data archive (see Data Availability).
-2. Restore the archived files to the repository directory structure.
-3. Run the desired model-generation or figure-generation scripts.
-4. Compare generated outputs with the published manuscript figures and summary tables.
+1. Prepare the required input datasets.
+2. Run the desired model-generation or figure-generation scripts.
+3. Compare generated outputs with the manuscript figures and summary tables.
 
 Because several intermediate datasets are large, users are encouraged to reproduce only the analyses relevant to their needs.
 
@@ -95,36 +93,18 @@ Because several intermediate datasets are large, users are encouraged to reprodu
 
 ## Data Availability
 
-Due to file-size limitations and third-party licensing restrictions, the complete reproducibility dataset is not hosted directly in this GitHub repository.
+This repository contains code, documentation, and selected derived datasets used in the analysis.
 
-The full data archive is available at:
-
-DOI: [TO BE INSERTED]
-
-The archive contains:
-
-* Origin-destination matrices
-* Distance matrices
-* Opportunity matrices
-* Figure-specific intermediate datasets
-* Model-ready analysis datasets
-
-SafeGraph-derived data remain subject to the original provider's licensing and redistribution policies.
+Some source datasets are subject to third-party licensing restrictions and therefore cannot be redistributed through this repository. Users seeking access to the original mobility data should consult the corresponding data providers.
 
 ---
 
 ## Citation
 
-If you use this repository, please cite:
-
-Zhang c., et al.
-
-*Directional asymmetry in urban mobility reveals semi-permeable racialized segregation.*
+Citation information will be updated upon publication.
 
 ---
 
 ## License
 
-Code in this repository is released under the MIT License.
-
-Users are responsible for complying with the licensing terms associated with all third-party datasets used in this study.
+See the LICENSE file for licensing information.
