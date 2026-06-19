@@ -1,0 +1,126 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+~$*
+*.tmp
+*.bak
+
+# Logs and local run artifacts
+*.log
+logs/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# External data archive contents
+# The GitHub repository is code/docs/manuscript-first. Full data should be
+# hosted in Zenodo, OSF, institutional storage, or another external archive.
+basic_data/**/*.csv
+basic_data/*.csv
+city_distance_matrices/**/*.csv
+city_distance_matrices/*.csv
+city_population_poi/**/*.csv
+city_population_poi/*.csv
+figure_1/**/*.csv
+figure_1/*.csv
+figure_2/**/*.csv
+figure_2/*.csv
+figure_3/**/*.csv
+figure_3/*.csv
+figure_4/**/*.csv
+figure_4/*.csv
+
+# Large tabular/binary data
+*.xlsx
+*.xls
+*.mat
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Generated figures and outputs
+# Keep code and documentation in figure folders, but avoid committing generated
+# image/PDF outputs unless a specific final manuscript asset is intentionally allowed.
+figure_1/**/*.png
+figure_1/**/*.jpg
+figure_1/**/*.jpeg
+figure_1/**/*.tif
+figure_1/**/*.tiff
+figure_1/**/*.pdf
+figure_1/**/*.svg
+figure_2/**/*.png
+figure_2/**/*.jpg
+figure_2/**/*.jpeg
+figure_2/**/*.tif
+figure_2/**/*.tiff
+figure_2/**/*.pdf
+figure_2/**/*.svg
+figure_3/**/*.png
+figure_3/**/*.jpg
+figure_3/**/*.jpeg
+figure_3/**/*.tif
+figure_3/**/*.tiff
+figure_3/**/*.pdf
+figure_3/**/*.svg
+figure_4/**/*.png
+figure_4/**/*.jpg
+figure_4/**/*.jpeg
+figure_4/**/*.tif
+figure_4/**/*.tiff
+figure_4/**/*.pdf
+figure_4/**/*.svg
+
+# Large or unavailable daily mobility/prediction folders. Do not generate by default.
+basic_data/real_day/
+basic_data/choice_iom_day/
+basic_data/iom_day/
+
+# Optional sample data allowlist
+# Small public examples may be committed intentionally under these folders.
+!sample_data/
+!sample_data/**
+!examples/
+!examples/**
+!examples/**/*.csv
+!sample_data/**/*.csv
+
+# Always keep repository documentation, source code, and manuscript source visible.
+!README.md
+!rename_map.md
+!workflow.md
+!.gitignore
+!docs/
+!docs/**
+!*.py
+!*.md
+!*.tex
+!*.bib
+!*.bst
+!*.sty
+!*.cls
+!*.txt
+!manuscript/**
