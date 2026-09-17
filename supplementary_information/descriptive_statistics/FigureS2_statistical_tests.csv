@@ -1,0 +1,5 @@
+﻿test,comparison,n,statistic,df,p_two_sided,p_one_sided,alpha,significant_two_sided,significant_one_sided
+Paired t-test,HPM_to_LPW > LPW_to_HPM,16,3.46613180155158,15.0,0.0034555338308259573,0.0017277669154129786,0.05,True,True
+Wilcoxon signed-rank test,HPM_to_LPW > LPW_to_HPM,16,6.0,,0.00042724609375,0.000213623046875,0.05,True,True
+Shapiro-Wilk test,Paired differences,16,0.8482938400457809,,0.01286035972296416,,0.05,True,
+Exact binomial sign test,HPM_to_LPW > LPW_to_HPM,16,15.0,,0.000518798828125,0.0002593994140625,0.05,True,True
